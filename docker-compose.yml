@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   web:
-    image: "aryanspillai/nike-demo:latest"
+    image: "rahul200220202/nike-website:latest"
     build: .
     ports:
       - "80:8000"
