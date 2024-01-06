@@ -18,7 +18,7 @@ const Hero = () => {
         </p>
 
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
-          <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10 rounded-lg'>
+          <span className='xl:bg-white xl:whitespace-nowrap relative z-20 pr-10 rounded-lg'>
             The New Arrival
           </span>
           <br />
@@ -43,13 +43,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
+      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center z-10'>
         <img
           src={bigShoeImg}
           alt='shoe colletion'
           width={610}
           height={502}
-          className='object-contain relative z-10 transition-transform transform-gpu scale-100 hover:scale-110 duration-700'
+          className='object-contain relative  transition-transform transform-gpu scale-100 hover:scale-110 duration-700'
         />
         
         

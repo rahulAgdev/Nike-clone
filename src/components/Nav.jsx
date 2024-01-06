@@ -6,7 +6,7 @@ import {close} from '../assets/icons'
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="padding-x py-8 absolute z-30 w-full">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="Header logo" width={130} height={29} />
@@ -30,7 +30,7 @@ const Nav = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl bg-white border shadow z-50`}
           >
 
             <ul className="list-none flex justify-end items-start flex-col gap-4">
